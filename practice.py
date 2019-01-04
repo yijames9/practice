@@ -38,3 +38,4 @@ print(loaded_json1["markers"])
 
 print "Is Jeanne in either of the jsons: " + str(findjeanne([dict(loaded_json1),dict(loaded_json2)]))
 
+#just a test
