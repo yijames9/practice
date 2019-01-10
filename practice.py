@@ -3,9 +3,11 @@ from collections import OrderedDict
 import re
 from operator import itemgetter
 
-def changex()
+def changex(data, name):
+    for i in data:
+        
 
-def changey()
+def changey(data, name):
 
 def findjeanne(data):
     for i in data:
@@ -37,4 +39,5 @@ print "\nAre both json files equal: " + str(loaded_json1 == loaded_json2)
 print(loaded_json1["markers"])
 
 print "Is Jeanne in either of the jsons: " + str(findjeanne([dict(loaded_json1),dict(loaded_json2)]))
+
 
